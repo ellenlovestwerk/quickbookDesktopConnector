@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?qbxml version="2.0"?>
+<QBXML>
+    <!-- onError may be set to continueOnError or stopOnError-->
+    <QBXMLMsgsRq onError = "stopOnError">
+        <VendorAddRq requestID="1">
+            <VendorAdd>
+                <Name>ellen</Name>
+                <IsActive>1</IsActive>
+                <CompanyName>Ship Saving</CompanyName>
+                <Salutation>Miss</Salutation>
+                <FirstName>Ellen</FirstName>
+                <LastName>Park</LastName>
+                <VendorAddress>
+                    <Addr1>17002 colima rd.</Addr1>
+                    <Addr2>77</Addr2>
+                    <City>hacienda heights</City>
+                    <State>CA</State>
+                    <PostalCode>91745</PostalCode>
+                    <Country>USA</Country>
+                </VendorAddress>
+                <Phone>443-805-4521</Phone>
+                <AltPhone>443-805-4521</AltPhone>
+                <Fax>443-805-4521</Fax>
+                <Email>ellen@shipsaving.com</Email>
+                <Contact>ellen</Contact>
+                <NameOnCheck>Ship Saving</NameOnCheck>
+                <AccountNumber>1234</AccountNumber>
+                <TermsRef>
+                    <FullName>1% 10 Net 30</FullName>
+                </TermsRef>
+                <CreditLimit>10000.00</CreditLimit>
+            </VendorAdd>
+        </VendorAddRq>
+    </QBXMLMsgsRq>
+</QBXML>
